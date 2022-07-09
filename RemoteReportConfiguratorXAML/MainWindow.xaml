@@ -7,6 +7,52 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <TabControl>
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="40*"/>
+                        <ColumnDefinition Width="357*"/>
+                    </Grid.ColumnDefinitions>
+                </Grid>
+            </TabItem>
+            <TabItem Header="TabItem" Margin="-2,-2,-2,0">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="40*"/>
+                        <ColumnDefinition Width="357*"/>
+                    </Grid.ColumnDefinitions>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <GroupBox Header="Titles and Subtitles&#xD;&#xA;" Margin="10,29,538,33"/>
+        <GroupBox Header="Title&#xD;&#xA;&#xA;" Margin="20,56,550,274"/>
+        <GroupBox Header="Subtitle&#xD;&#xA;&#xA;" Margin="21,165,549,164"/>
+        <GroupBox Header="Image subtitle&#xD;&#xA;&#xA;" Margin="21,275,549,54"/>
+        <RichTextBox Margin="30,93,561,285">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <RichTextBox Margin="30,203,561,175">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <RichTextBox Margin="30,312,561,66">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
 
     </Grid>
 </Window>
