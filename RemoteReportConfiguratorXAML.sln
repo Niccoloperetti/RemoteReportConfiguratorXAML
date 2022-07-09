@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteReportConfiguratorXAML", "RemoteReportConfiguratorXAML\RemoteReportConfiguratorXAML.csproj", "{6C6245CD-3A83-419D-A3DE-10722D31E7B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C6245CD-3A83-419D-A3DE-10722D31E7B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6245CD-3A83-419D-A3DE-10722D31E7B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6245CD-3A83-419D-A3DE-10722D31E7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6245CD-3A83-419D-A3DE-10722D31E7B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5820E486-617C-409A-8C1D-C3C2950A2CF0}
+	EndGlobalSection
+EndGlobal
